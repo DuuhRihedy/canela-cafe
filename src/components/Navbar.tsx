@@ -25,7 +25,7 @@ export default function Navbar() {
       <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
         <div className="navbar__inner">
           <Link to="/" className="navbar__logo">
-            <img src="/logo.png" alt="Canela Café" loading="eager" />
+            <img src="./logo.png" alt="Canela Café" loading="eager" />
             <span className="navbar__logo-text">Canela Café</span>
           </Link>
 
